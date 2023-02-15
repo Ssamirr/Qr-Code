@@ -1,0 +1,15 @@
+import QrCode from "./components/QrCode"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+function App() {
+
+  return (
+    <>
+      <ToastContainer />
+      <QrCode />
+    </>
+  )
+}
+
+export default App
